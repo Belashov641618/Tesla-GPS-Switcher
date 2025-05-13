@@ -2,3 +2,4 @@ plugins
 workspace.json
 app.json
 appearance.json
+page-preview.json
