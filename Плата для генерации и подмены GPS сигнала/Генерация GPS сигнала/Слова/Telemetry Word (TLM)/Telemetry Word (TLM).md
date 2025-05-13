@@ -2,8 +2,11 @@
 ---
 # Битовая схема
 ![[Схема TLM слова.png]]
-Слово `TLM` состоит из четырёх частей:
-- **Preamble** - `10001011`
-- **[[Telemetry Message (TLM Message)]]** - `xxxxxxxxxxxxxx`
-- **[[Telemetry Word Reserved Bits (C)]]** - `11`
-- **[[Parity Bits (P)]]** - `xxxxxx`
+
+| Биты | Формат           | Часть                                    |
+| ---- | ---------------- | ---------------------------------------- |
+| $8$  | `10001011`       | **Preamble**                             |
+| $14$ | `xxxxxxxxxxxxxx` | **[[Telemetry Message (TLM Message)]]**  |
+| $2$  | `11`             | **[[Telemetry Word Reserved Bits (C)]]** |
+| $6$  | `xxxxxx`         | **[[Parity Bits (P)]]**                  |
+
