@@ -5,8 +5,15 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
+    {
+      "query": "path:\"Плата для генерации и подмены GPS сигнала/Шаблоны\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 4209467
+      }
+    },
     {
       "query": "tag:#Incomplete  ",
       "color": {
@@ -36,16 +43,16 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "centerStrength": 0.462577962577963,
+  "repelStrength": 11.5800415800416,
   "linkStrength": 1,
-  "linkDistance": 132,
-  "scale": 1.3716548945441667,
+  "linkDistance": 191,
+  "scale": 0.16702760118090454,
   "close": true
 }
